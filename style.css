@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: white;
+  
+    
+}
+
+body{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    transition: background-image ease .5s;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.box-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(110%);
+}
